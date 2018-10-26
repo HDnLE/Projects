@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{712F04E7-2D03-4E43-898C-876FA41CEB4C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SystemXTest</RootNamespace>
+    <AssemblyName>SystemXAuto-Test</AssemblyName>
+    <RanorexVersion>8.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <projectdefaultrepository>a18c78c1-161b-48b5-a007-ff79dde3f3fb</projectdefaultrepository>
+    <ApplicationIcon>hovemedical.ico</ApplicationIcon>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartAction>Project</StartAction>
+    <TargetFrameworkProfile />
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <HintPath>..\..\..\..\DLLs\Accessibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualC">
+      <HintPath>..\..\..\..\DLLs\Microsoft.VisualC.Dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCFFRasterizer">
+      <HintPath>..\..\..\..\DLLs\PresentationCFFRasterizer.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <HintPath>References\PresentationCore.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <HintPath>References\PresentationFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationUI">
+      <HintPath>..\..\..\..\DLLs\PresentationUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Controls">
+      <HintPath>..\..\..\DLLs\Ranorex.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Libs.Util">
+      <HintPath>..\..\..\..\DLLs\Ranorex.Libs.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ReachFramework">
+      <HintPath>..\..\..\..\DLLs\ReachFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.configuration">
+      <HintPath>..\..\..\..\DLLs\System.configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.Install">
+      <HintPath>..\..\..\..\Windows\assembly\GAC_MSIL\System.Configuration.Install\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.Install.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>..\..\..\..\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <HintPath>..\..\..\..\DLLs\System.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <HintPath>..\..\..\..\DLLs\System.DirectoryServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>..\..\..\..\DLLs\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Management">
+      <HintPath>..\..\..\..\DLLs\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Printing">
+      <HintPath>..\..\..\..\DLLs\System.Printing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security">
+      <HintPath>..\..\..\..\DLLs\System.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>..\..\..\..\DLLs\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\DLLs\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>..\..\..\..\DLLs\System.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider">
+      <HintPath>..\..\..\..\DLLs\UIAutomationProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationTypes">
+      <HintPath>..\..\..\..\DLLs\UIAutomationTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <HintPath>References\WindowsBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>5b42c82a-f146-4f78-b245-e71071c2a519</id>
+    </Compile>
+    <Compile Include="Main_Script.cs">
+      <id>7c1aa3d8-9f27-424e-ae64-915a5ff94c3a</id>
+    </Compile>
+    <Compile Include="GlobalFunctions.cs">
+      <id>78e14d26-4f45-409a-8aef-f915af80bbec</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>9e140c6e-a211-4f9f-b686-8ae91808a45d</id>
+    </Compile>
+    <Compile Include="Images.Designer.cs">
+      <BoundTo>bd48e6af-d320-4e3b-8380-51a8917f669b</BoundTo>
+      <DependentUpon>Images.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <id>d6736a65-efb4-4f46-9a2e-915954d3a805</id>
+    </Compile>
+    <Compile Include="Resource1.Designer.cs">
+      <BoundTo>bd48e6af-d320-4e3b-8380-51a8917f669b</BoundTo>
+      <DependentUpon>Images.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <id>18385943-078a-4ecc-acfc-6942f64d2ab8</id>
+    </Compile>
+    <Compile Include="SplashComponent.cs">
+      <id>ef1460b9-09d3-469e-914f-b51cb8377cde</id>
+    </Compile>
+    <Compile Include="SystemXAuto_Test.cs">
+      <BoundTo>a18c78c1-161b-48b5-a007-ff79dde3f3fb</BoundTo>
+      <DependentUpon>SystemXAuto_Test.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>98b9721f-7d6f-4c0a-a5eb-a483d9739058</id>
+    </Compile>
+    <Compile Include="ExecuteFunctions.cs">
+      <id>e96f45cf-df91-45a7-9674-4e0d52d4bb92</id>
+    </Compile>
+    <Compile Include="DbFunctions.cs">
+      <id>89e44485-dc43-4476-bba9-41e9883ad326</id>
+    </Compile>
+    <Compile Include="TempCode.cs">
+      <id>fa1ce536-99de-4358-aa73-577d0f623631</id>
+    </Compile>
+    <Compile Include="WinComponents.cs">
+      <id>01420d9a-2ccc-413c-9f5b-65600d2344ee</id>
+    </Compile>
+    <Compile Include="WriteFunctions.cs">
+      <id>4c10e655-81be-4724-b72f-5b847b922077</id>
+    </Compile>
+    <None Include="app.config">
+      <id>fcc7b1c3-7a92-4956-ba4e-38af6a26647c</id>
+    </None>
+    <None Include="app.manifest">
+      <id>aeb9c3f4-0ab3-40e2-8bc0-34602cfcd3f8</id>
+    </None>
+    <None Include="SystemXAuto_Test.rximg">
+      <BoundTo>a18c78c1-161b-48b5-a007-ff79dde3f3fb</BoundTo>
+      <DependentUpon>SystemXAuto_Test.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>79814c94-5609-4d81-b270-9498db3d29bb</id>
+    </None>
+    <None Include="SystemXAuto_Test.rxrep">
+      <id>a18c78c1-161b-48b5-a007-ff79dde3f3fb</id>
+      <repoid>995bdee8-9b3e-4149-afe7-8c19ac46df65</repoid>
+      <reporootid>c8bee4f4-62d8-43b2-b573-ac82847444df</reporootid>
+    </None>
+    <Content Include="SystemXAuto_Test.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c40b1fb8-c7cc-46db-9d42-2c16f522b473</id>
+    </Content>
+    <Content Include="SystemXAuto_Test.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>dcdb1a33-fff5-481a-9a52-ccb44e0a6ebe</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <id>bd48e6af-d320-4e3b-8380-51a8917f669b</id>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked"
+if exist "$(TargetPath)" if not exist "$(TargetPath).locked" move "$(TargetPath)" "$(TargetPath).locked"</PreBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

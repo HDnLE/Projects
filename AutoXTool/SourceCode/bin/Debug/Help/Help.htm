@@ -1,0 +1,95 @@
+<html>
+<head>
+	<title>System XAuto-Test: Help</title>
+	<link href="css/styles.css" rel="stylesheet">
+	<link rel="shortcut icon" href="images/systemx.ico">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="inner">
+		<div class="panel-header">
+			<div class="panel-title">Help: System XAuto-Test</div>
+		</div>
+		<div class="content">
+			
+			<div class="panel-body toc">
+				<div style="text-align:center"><img src="images/systemx-main.png" height=250 class="img-help"></div>
+				<h4>Overview</h4>
+				<p>
+					The utility is designed with Ranorex (See here for details about Ranorex) running in the background. This is like "automation within automation". The purpose of this utility is to help 
+					Test Automation Developers reduce their tasks when developing automated scripts. And actually, even if engineers with not so much knowledge on Ranorex can be an instant Test Automation Developer.
+				</p>
+				<p>
+					This utility is using a MySql database where your set of instructions are keyed in. The utility will just read instructions from the database and then you have the option to write 
+					(the utility will write Ranorex scripts for you) or execute the script. You have to use <b>System XAuto-Test Web UI</b> to do this.
+				</p>
+				<p>Please refer to this <a href="images/architecture.png" target="_blank">architecture</a>.</p>
+				
+				<h4 class="topic-header">Execute Mode</h4>
+				<p class="sub-topic">&nbsp;</p>
+				<p class="sub-topic-content">
+					<b>Execute Mode</b> is one of the two modes of this tool. This mode will allow user to check or see his designed scripts run in action before he converts them to executable scripts. 
+				</p>
+				
+				<p class="sub-topic">Run a Script From Execute Mode</p>
+				<ol class="steps">
+					<li>Click <b>Select Mode > Execute Script</b></li>
+					<li>Select a testsuite from the list</li>
+					A testsuite is where the testcase that you want to execute belongs to
+					<li>Select a testcase from the list that you want to execute</li>
+					<li>Click on <b>Execute</b> button to start running the script</li>
+					<img src="images/systemxtest-execute-mode.png" height=250 class="img-help">
+				</ol>
+				
+				<h4 class="topic-header space">Write Mode</h4>
+				<p class="sub-topic">&nbsp;</p>
+				<p class="sub-topic-content">
+					<b>Write Mode</b> is the another mode of this tool. This mode will allow user to convert the instructions made in the UI into executable (Ranorex) script. This mode
+					can write single script, multiple scripts (or range of scripts) or a masterscript. A masterscript is a script where selected individual scripts are put into one.
+				</p>
+				<p class="sub-topic">Write Single Script</p>
+				<ol class="steps">
+					<li>Click <b>Select Mode > Write Script > Single Script</b></li>
+					<li>Select a testsuite from the list</li>
+					<li>Select a testcase from the list that you want to write</li>
+					<li>Click on <b>Write</b> button to start writing the script</li>
+					<img src="images/systemxtest-write-mode-single.png" height=250 class="img-help">
+					<li>A confirmation message will popup when done. You will find all the written scripts at <b>*C:\SystemXScripts</b> folder</li>
+					<img src="images/systemxtest-write-done.png" height=150 class="img-help"><br>
+					*You can also change the folder where you want to store the scripts through <b>Settings > Script Settings</b><br>
+					<img src="images/systemx-script-settings.png" height=250 class="img-help">
+				</ol>
+				
+				<p class="sub-topic">Write Multiple Scripts</p>
+				<ol class="steps">
+					<li>Click <b>Select Mode > Write Script > Multiple Scripts</b></li>
+					<li>Select a testsuite from the list</li>
+					<li>Key in the testcase ID of the scripts that you want to write</li>
+					To write multiple scripts, separate IDs with comma (,). For example, <b>100,105,117</b>. You can also write scripts in range or combination like <b>100,105,117-130</b>.
+					<li>Click on <b>Write</b> button to start writing the script</li>
+					<img src="images/systemxtest-write-mode-multiple.png" height=250 class="img-help">
+					<li>A confirmation message will popup when done. You will find all the written scripts at <b>*C:\SystemXScripts</b> folder</li>
+					<img src="images/systemxtest-write-done.png" height=150 class="img-help"><br>
+					*You can also change the folder where you want to store the scripts through <b>Settings > Script Settings</b>
+				</ol>
+				
+				<p class="sub-topic">Write Masterscript</p>
+				<ol class="steps">
+					<li>Click <b>Select Mode > Write Script > Master Script</b></li>
+					<li>Select a testsuite from the list</li>
+					<li>Click on <b>Write</b> button to start writing the masterscript</li>
+					<img src="images/systemxtest-write-mode-masterscript.png" height=250 class="img-help">
+					<li>A confirmation message will popup when done. You will find all the written scripts at <b>C:\SystemXScripts</b> folder</li>
+					<img src="images/systemxtest-write-done.png" height=150 class="img-help"><br>
+					*You can also change the folder where you want to store the scripts through <b>Settings > Script Settings</b>
+					<div class="alert warning">Scripts will be included in the masterscript list if you set the <b>Add to Masterscript</b> option to <b>true</b>. Go to <a href="http://192.168.42.1/systemx-test/index.php?id=2">Manage Test Cases</a> page for more details.</div>
+				</ol>
+				
+			</div>
+			
+		</div>
+		</div>
+	</div>
+
+</body>
+</html>

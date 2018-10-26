@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+id="995bdee8-9b3e-4149-afe7-8c19ac46df65"
+name="SystemXAuto_Test"
+rxversion="8.2">
+	<codegen
+	classname="SystemXAuto_Test"
+	namespace="SystemXTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c8bee4f4-62d8-43b2-b573-ac82847444df"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

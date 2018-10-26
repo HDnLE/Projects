@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="TestTemplate.GlobalFunction" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="2.198288" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="TestTemplate.Script" Collapsed="False">
+    <Position X="0.5" Y="9.1" Width="1.158805" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="TestTemplate.Program" Collapsed="False">
+    <Position X="0.5" Y="10.7" Width="1.029215" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="TestTemplate.TestTemplateRepository" Collapsed="False">
+    <Position X="0.5" Y="12" Width="3.049215" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="TestTemplate.TestTemplateRepositoryFolders" Collapsed="False">
+    <Position X="0.5" Y="14.3" Width="2.216154" />
+    <Compartments />
+  </Class>
+</ClassDiagram>

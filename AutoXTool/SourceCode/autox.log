@@ -1,0 +1,804 @@
+Bygging startet 22.05.2018 12:56:23.
+Miljø når bygging startes:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\rommel.lamanilao\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = UTV-ROLA
+ComSpec = C:\WINDOWS\system32\cmd.exe
+ESET_OPTIONS =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+FP_NO_HOST_CHECK = NO
+HOMEDRIVE = H:
+HOMEPATH = \
+HOMESHARE = \\filserver\privat\rommel.lamanilao
+JAVA_HOME = C:\Program Files\Java\jdk1.7.0_79
+LOCALAPPDATA = C:\Users\rommel.lamanilao\AppData\Local
+LOGONSERVER = \\DOMAINATRIX
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MSBUILDLOGTASKINPUTS = 1
+NUMBER_OF_PROCESSORS = 4
+OneDrive = C:\Users\rommel.lamanilao\OneDrive
+OS = Windows_NT
+Path = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PHP\v5.6;C:\Program Files (x86)\CollabNet;C:\Program Files (x86)\Embarcadero\RAD Studio\9.0\bin;C:\Users\Public\Documents\RAD Studio\9.0\Bpl;C:\Program Files (x86)\Embarcadero\RAD Studio\9.0\bin64;C:\Users\Public\Documents\RAD Studio\9.0\Bpl\Win64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\programfiler\Apache\maven\apache-maven-3.3.3\bin;C:\SikuliX\libs;C:\Projects\Sikuli\Functions;C:\Program Files (x86)\RemObjects Software\Everwood\Bin;C:\Program Files (x86)\RemObjects Software\Pascal Script for Delphi\Dcu\D16\win32;C:\Work\Bpl;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 & MySQL Utilities 1.5.4 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 & MySQL Utilities 1.5.4 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\AutoIt3;C:\Program Files (x86)\SmartBear\TestComplete 11\Bin;C:\Program Files (x86)\Silk\SilkTest;C:\Program Files (x86)\Silk\SilkTest\ng\gui;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jre1.8.0_60\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseGit\bin;C:\SikuliX\libs;C:\Work\Bpl;C:\Users\rommel.lamanilao\AppData\Local\Microsoft\WindowsApps;C:\Users\rommel.lamanilao\AppData\Roaming\npm;C:\Users\rommel.lamanilao\AppData\Roaming\Composer\vendor\bin;;C:\Program Files\Microsoft VS Code\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3c03
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PROMPT = $P$G
+PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\AutoIt3\AutoItX
+PUBLIC = C:\Users\Public
+SCITE_USERHOME = C:\Users\rommel.lamanilao\AppData\Local\AutoIt v3\SciTE
+SESSIONNAME = Console
+SIKULI_HOME = C:\SikuliX
+SILK_CONFIG_PATH = C:\ProgramData\Borland\Silk\SilkMeter\cfg
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TEMP = C:\Users\ROMMEL~1.LAM\AppData\Local\Temp
+TMP = C:\Users\ROMMEL~1.LAM\AppData\Local\Temp
+USERDNSDOMAIN = HOVEMEDSYS.LOCAL
+USERDOMAIN = HOVEMEDSYS
+USERDOMAIN_ROAMINGPROFILE = HOVEMEDSYS
+USERNAME = rommel.lamanilao
+USERPROFILE = C:\Users\rommel.lamanilao
+windir = C:\WINDOWS
+
+Overstyrer målet GetFrameworkPaths i prosjekt C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets med målet GetFrameworkPaths fra prosjektet C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets.
+Overstyrer målet SatelliteDllsProjectOutputGroup i prosjekt C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets med målet SatelliteDllsProjectOutputGroup fra prosjektet C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets.
+Prosjektet C:\Projects\Automation\Tools\SystemXAuto-Test\SystemXAuto-Test.csproj på noden 1 (go mål).
+Opprinnelige egenskaper:
+_AfterCompileWinFXInternalDependsOn = 
+        PrepareResourcesForSatelliteAssemblies;
+        MergeLocalizationDirectives;
+        AfterCompileWinFX
+    
+_CompileTargetNameForLocalType = _CompileTemporaryAssembly
+_DebugSymbolsProduced = true
+_DeploymentApplicationManifestIdentity = SystemXAuto-Test.exe
+_DeploymentBuiltUpdateInterval = 0
+_DeploymentBuiltUpdateIntervalUnits = Days
+_DeploymentDeployManifestIdentity = SystemXAuto-Test.application
+_DeploymentFileMappingExtension = 
+_DeploymentPublishableProjectDefault = true
+_DeploymentTargetApplicationManifestFileName = SystemXAuto-Test.exe.manifest
+_DeploymentUrl = 
+_DocumentationFileProduced = false
+_GetChildProjectCopyToOutputDirectoryItems = true
+_OriginalConfiguration = Debug
+_OriginalPlatform = x86
+_ProjectDefaultTargets = Build
+_RequireMCPass2ForMainAssembly = false
+_RequireMCPass2ForSatelliteAssemblyOnly = false
+_ResolveReferenceDependencies = false
+_ResourceNameInMainAssembly = SystemXAuto-Test.g.resources
+_SGenDllCreated = false
+_SGenDllName = SystemXAuto-Test.XmlSerializers.dll
+_SGenGenerateSerializationAssembliesConfig = Off
+AddAdditionalExplicitAssemblyReferences = true
+AddAppConfigToBuildOutputs = true
+AdditionalExplicitAssemblyReferences = System.Core;
+AllowedReferenceAssemblyFileExtensions = 
+      .winmd;
+      .dll;
+      .exe
+    
+AllowedReferenceRelatedFileExtensions = 
+      .pdb;
+      .xml;
+      .pri
+    
+AllowUnsafeBlocks = False
+ALLUSERSPROFILE = C:\ProgramData
+AlwaysCompileMarkupFilesInSeparateDomain = true
+APPDATA = C:\Users\rommel.lamanilao\AppData\Roaming
+ApplicationIcon = hovemedical.ico
+ApplicationManifest = app.manifest
+AssemblyFoldersSuffix = AssemblyFoldersEx
+AssemblyName = SystemXAuto-Test
+AssemblySearchPaths = 
+      {CandidateAssemblyFiles};
+      C:\DLL\;
+      {HintPathFromItem};
+      {TargetFrameworkDirectory};
+      {Registry:Software\Microsoft\.NETFramework,v4.6,AssemblyFoldersEx};
+      {AssemblyFolders};
+      {GAC};
+      {RawFileName};
+      bin\Debug\
+    
+AssignTargetPathsDependsOn = 
+AutoUnifyAssemblyReferences = false
+AvailablePlatforms = Any CPU,x86,x64
+BaseAddress = 4194304
+BaseIntermediateOutputPath = obj\
+BuildCompileAction = Build
+BuildDependsOn = CreateRanorexEntryPointTarget;CreateImageResources;RemoveSolutionSettings;CopySolutionSettings;CopyTestRailSyncDataFile;
+      EntityDeploy;
+      
+      BeforeBuild;
+      CoreBuild;
+      AfterBuild
+    
+    
+BuildGenerateSourcesAction = Build
+BuildingProject = false
+BuildInParallel = true
+BuildLinkAction = Build
+BuildProjectReferences = true
+BuildSystem = MSBuild
+BuildTaskAssembly = PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+BuiltProjectOutputGroupDependsOn = PrepareForBuild
+CheckForOverflowUnderflow = True
+CleanDependsOn = 
+      
+      BeforeClean;
+      UnmanagedUnregistration;
+      CoreClean;
+      CleanReferencedProjects;
+      CleanPublishFolder;
+      AfterClean
+    ;
+      EntityClean;
+    ;RemoveImageResources;RemoveSolutionSettings;
+CleanFile = SystemXAuto-Test.csproj.FileListAbsolute.txt
+CodeAnalysisTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v11.0\CodeAnalysis\Microsoft.CodeAnalysis.targets
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+CompileDependsOn = 
+        
+      ResolveReferences;
+      ResolveKeySource;
+      SetWin32ManifestProperties;
+      _GenerateCompileInputs;
+      BeforeCompile;
+      _TimeStampBeforeCompile;
+      CoreCompile;
+      _TimeStampAfterCompile;
+      AfterCompile;
+    ;
+        _AfterCompileWinFXInternal
+    
+CompileLicxFilesDependsOn = 
+CompileTargetNameForTemporaryAssembly = CompileTemporaryAssembly
+ComputeIntermediateSatelliteAssembliesDependsOn = 
+      CreateManifestResourceNames
+    
+COMPUTERNAME = UTV-ROLA
+ComReferenceExecuteAsTool = false
+ComReferenceNoClassMembers = false
+ComSpec = C:\WINDOWS\system32\cmd.exe
+Configuration = Debug
+ConfigurationName = Debug
+ConsiderPlatformAsProcessorArchitecture = true
+ContentFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+ContinueOnError = false
+CoreBuildDependsOn = 
+      BuildOnlySettings;
+      PrepareForBuild;
+      PreBuildEvent;
+      ResolveReferences;
+      PrepareResources;
+      ResolveKeySource;
+      Compile;
+      ExportWindowsMDFile;
+      UnmanagedUnregistration;
+      GenerateSerializationAssemblies;
+      CreateSatelliteAssemblies;
+      GenerateManifests;
+      GetTargetPath;
+      PrepareForRun;
+      UnmanagedRegistration;
+      IncrementalClean;
+      PostBuildEvent
+    
+CoreCleanDependsOn = 
+CoreCompileDependsOn = _ComputeNonExistentFileProperty
+CoreResGenDependsOn = 
+CreateCustomManifestResourceNamesDependsOn = 
+CreateHardLinksForCopyAdditionalFilesIfPossible = false
+CreateManifestResourceNamesDependsOn = 
+CreateSatelliteAssembliesDependsOn = 
+      _GenerateSatelliteAssemblyInputs;
+      ComputeIntermediateSatelliteAssemblies;
+      GenerateSatelliteAssemblies
+    
+CustomAfterMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v4.0\Custom.After.Microsoft.Common.targets
+CustomAfterMicrosoftCSharpTargets = C:\Program Files (x86)\MSBuild\v4.0\Custom.After.Microsoft.CSharp.Targets
+CustomBeforeMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v4.0\Custom.Before.Microsoft.Common.targets
+CustomBeforeMicrosoftCSharpTargets = C:\Program Files (x86)\MSBuild\v4.0\Custom.Before.Microsoft.CSharp.Targets
+DebugSymbols = True
+DebugSymbolsProjectOutputGroupDependsOn = 
+DebugType = Full
+DefaultLanguageSourceExtension = .cs
+DeferredValidationErrorsFileName = obj\Debug\\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+DefineConstants = DEBUG;TRACE
+DelaySign = 
+DeploymentType = Installed
+DesignTimeIntermediateOutputPath = obj\Debug\InProcessTempFiles\
+DesignTimeResolveAssemblyReferencesDependsOn = 
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      ResolveReferences
+    
+DevEnvDir = *Undefined*
+DocumentationProjectOutputGroupDependsOn = 
+EmbeddedWin32Manifest = 
+EntityDeployDependsOn = 
+EntityDeployIntermediateResourcePath = obj\Debug\edmxResourcesToEmbed\
+ESET_OPTIONS =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+ExpandSDKAllowedReferenceExtensions = 
+      .winmd;
+      .dll
+    
+ExpandSDKReferencesDependsOn = 
+      ResolveSDKReferences
+    
+FileAlignment = 4096
+FP_NO_HOST_CHECK = NO
+Framework20Dir = @(_TargetFramework20DirectoryItem)
+Framework30Dir = @(_TargetFramework30DirectoryItem)
+Framework35Dir = @(_TargetFramework35DirectoryItem)
+Framework40Dir = @(_TargetFramework40DirectoryItem)
+FrameworkDir = @(_TargetFramework40DirectoryItem)
+FrameworkPathOverride = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+FrameworkRegistryBase = Software\Microsoft\.NETFramework
+FrameworkSDKDir = @(_TargetFrameworkSDKDirectoryItem)
+FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\
+FullReferenceAssemblyNames = Full
+GenerateClickOnceManifests = 
+GenerateCompiledExpressionsTempFilePathForEditing = obj\Debug\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+GenerateCompiledExpressionsTempFilePathForTypeInfer = obj\Debug\\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+GenerateCompiledExpressionsTempFilePathForValidation = obj\Debug\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+GeneratedFileExtension = .g.cs
+GenerateManifestsDependsOn = 
+      SetWin32ManifestProperties;
+      GenerateApplicationManifest;
+      GenerateDeploymentManifest
+    
+GenerateSerializationAssemblies = Auto
+GenerateTargetFrameworkAttribute = true
+GetCopyToOutputDirectoryItemsDependsOn = 
+      AssignTargetPaths;
+      _SplitProjectReferencesByFileExistence
+    
+GetFrameworkPathsDependsOn = 
+GetReferenceAssemblyPathsDependsOn = 
+        ;
+        GetWinFXPath
+    
+GetTargetPathDependsOn = 
+HighEntropyVA = true
+HOMEDRIVE = H:
+HOMEPATH = \
+HOMESHARE = \\filserver\privat\rommel.lamanilao
+HostInBrowser = false
+ImplicitlyExpandDesignTimeFacades = true
+ImplicitlyExpandDesignTimeFacadesDependsOn = 
+      ;
+      GetReferenceAssemblyPaths
+    
+ImportByWildcardAfterMicrosoftCommonTargets = true
+ImportByWildcardAfterMicrosoftCSharpTargets = true
+ImportByWildcardAfterMicrosoftNetFrameworkProps = true
+ImportByWildcardAfterMicrosoftNetFrameworkTargets = true
+ImportByWildcardBeforeMicrosoftCommonTargets = true
+ImportByWildcardBeforeMicrosoftCSharpTargets = true
+ImportByWildcardBeforeMicrosoftNetFrameworkProps = true
+ImportByWildcardBeforeMicrosoftNetFrameworkTargets = true
+ImportUserLocationsByWildcardAfterMicrosoftCommonTargets = true
+ImportUserLocationsByWildcardAfterMicrosoftCSharpTargets = true
+ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkProps = true
+ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkTargets = true
+ImportUserLocationsByWildcardBeforeMicrosoftCommonTargets = true
+ImportUserLocationsByWildcardBeforeMicrosoftCSharpTargets = true
+ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkProps = true
+ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkTargets = true
+InitRxSearchPathsDependsOn = 
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      PrepareForBuild;
+      ResolveSDKReferences;
+      ExpandSDKReferences;
+    
+IntermediateOutputPath = obj\Debug\
+IsApplication = true
+JAVA_HOME = C:\Program Files\Java\jdk1.7.0_79
+Language = C#
+LoadTimeSensitiveProperties = 
+      ;
+    
+LoadTimeSensitiveTargets = 
+      ;
+      XamlMarkupCompilePass1;
+    
+LOCALAPPDATA = C:\Users\rommel.lamanilao\AppData\Local
+LocalizationDirectivesToLocFile = None
+LOGONSERVER = \\DOMAINATRIX
+MarkupCompilePass2ForMainAssemblyDependsOn = 
+                     GenerateTemporaryTargetAssembly;
+                     MarkupCompilePass2;
+                     AfterMarkupCompilePass2;
+                     CleanupTemporaryTargetAssembly
+       
+MaxTargetPath = 100
+MsAppxPackageTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v11.0\AppxPackage\Microsoft.AppXPackage.Targets
+MSBuildAllProjects = ;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.Targets;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.props;C:\Projects\Automation\Tools\SystemXAuto-Test\SystemXAuto-Test.csproj;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets
+MSBuildBinPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MSBUILDLOGTASKINPUTS = 1
+MSBuildNodeCount = 1
+MSBuildProgramFiles32 = C:\Program Files (x86)
+MSBuildProjectDefaultTargets = Build
+MSBuildProjectDirectory = C:\Projects\Automation\Tools\SystemXAuto-Test
+MSBuildProjectDirectoryNoRoot = Projects\Automation\Tools\SystemXAuto-Test
+MSBuildProjectExtension = .csproj
+MSBuildProjectFile = SystemXAuto-Test.csproj
+MSBuildProjectFullPath = C:\Projects\Automation\Tools\SystemXAuto-Test\SystemXAuto-Test.csproj
+MSBuildProjectName = SystemXAuto-Test
+MSBuildRuntimeVersion = 4.0.30319
+MSBuildStartupDirectory = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+MSBuildToolsPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+MSBuildToolsPath32 = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+MSBuildToolsRoot = C:\Windows\Microsoft.NET\Framework\
+MSBuildToolsVersion = 4.0
+MSBuildUserExtensionsPath = C:\Users\rommel.lamanilao\AppData\Local\Microsoft\MSBuild
+MsTestToolsTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v11.0\TeamTest\Microsoft.TeamTest.targets
+NoCompilerStandardLib = true
+NoStdLib = False
+NoWin32Manifest = False
+NUMBER_OF_PROCESSORS = 4
+OneDrive = C:\Users\rommel.lamanilao\OneDrive
+Optimize = False
+OS = Windows_NT
+OSVersion = 5.1.2600.0
+OutDir = bin\Debug\
+OutputPath = bin\Debug\
+OutputType = WinExe
+OverwriteReadOnlyFiles = false
+Path = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PHP\v5.6;C:\Program Files (x86)\CollabNet;C:\Program Files (x86)\Embarcadero\RAD Studio\9.0\bin;C:\Users\Public\Documents\RAD Studio\9.0\Bpl;C:\Program Files (x86)\Embarcadero\RAD Studio\9.0\bin64;C:\Users\Public\Documents\RAD Studio\9.0\Bpl\Win64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\programfiler\Apache\maven\apache-maven-3.3.3\bin;C:\SikuliX\libs;C:\Projects\Sikuli\Functions;C:\Program Files (x86)\RemObjects Software\Everwood\Bin;C:\Program Files (x86)\RemObjects Software\Pascal Script for Delphi\Dcu\D16\win32;C:\Work\Bpl;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 & MySQL Utilities 1.5.4 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 & MySQL Utilities 1.5.4 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\AutoIt3;C:\Program Files (x86)\SmartBear\TestComplete 11\Bin;C:\Program Files (x86)\Silk\SilkTest;C:\Program Files (x86)\Silk\SilkTest\ng\gui;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jre1.8.0_60\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseGit\bin;C:\SikuliX\libs;C:\Work\Bpl;C:\Users\rommel.lamanilao\AppData\Local\Microsoft\WindowsApps;C:\Users\rommel.lamanilao\AppData\Roaming\npm;C:\Users\rommel.lamanilao\AppData\Roaming\Composer\vendor\bin;;C:\Program Files\Microsoft VS Code\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+Platform = x86
+PlatformName = x86
+PlatformTarget = x86
+PlatformTargetAsMSBuildArchitecture = x86
+PlatformTargetAsMSBuildArchitectureExplicitlySet = false
+PostBuildEventDependsOn = 
+PreBuildEvent = if exist "C:\Projects\Automation\Tools\SystemXAuto-Test\bin\Debug\SystemXAuto-Test.exe.locked" del "C:\Projects\Automation\Tools\SystemXAuto-Test\bin\Debug\SystemXAuto-Test.exe.locked"
+if exist "C:\Projects\Automation\Tools\SystemXAuto-Test\bin\Debug\SystemXAuto-Test.exe" if not exist "C:\Projects\Automation\Tools\SystemXAuto-Test\bin\Debug\SystemXAuto-Test.exe.locked" move "C:\Projects\Automation\Tools\SystemXAuto-Test\bin\Debug\SystemXAuto-Test.exe" "C:\Projects\Automation\Tools\SystemXAuto-Test\bin\Debug\SystemXAuto-Test.exe.locked"
+PreBuildEventDependsOn = 
+Prefer32Bit = true
+PrepareForBuildDependsOn = GetFrameworkPaths;GetReferenceAssemblyPaths
+PrepareForRunDependsOn = 
+      CopyFilesToOutputDirectory
+    
+PrepareResourceNamesDependsOn = 
+                    AssignWinFXEmbeddedResource;
+                    
+      AssignTargetPaths;
+      SplitResourcesByCulture;
+      CreateManifestResourceNames;
+      CreateCustomManifestResourceNames
+    
+      
+PrepareResourcesDependsOn = 
+      ValidationExtension;
+      ExpressionBuildExtension;
+      
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+                MarkupCompilePass1;
+                AfterMarkupCompilePass1;
+                MarkupCompilePass2ForMainAssembly;
+                FileClassification;
+                MainResourcesGeneration;
+                
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    
+       
+    
+    
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3c03
+ProcessorArchitecture = x86
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+projectdefaultrepository = a18c78c1-161b-48b5-a007-ff79dde3f3fb
+ProjectDesignTimeAssemblyResolutionSearchPaths = 
+      {CandidateAssemblyFiles};
+      C:\DLL\;
+      {HintPathFromItem};
+      {TargetFrameworkDirectory};
+      {Registry:Software\Microsoft\.NETFramework,v4.6,AssemblyFoldersEx};
+      {RawFileName};
+      C:\Projects\Automation\Tools\SystemXAuto-Test\bin\Debug\
+    
+ProjectDir = C:\Projects\Automation\Tools\SystemXAuto-Test\
+ProjectExt = .csproj
+ProjectFileName = SystemXAuto-Test.csproj
+ProjectFlavor = Client
+ProjectGuid = {712F04E7-2D03-4E43-898C-876FA41CEB4C}
+ProjectName = SystemXAuto-Test
+ProjectPath = C:\Projects\Automation\Tools\SystemXAuto-Test\SystemXAuto-Test.csproj
+PROMPT = $P$G
+PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\AutoIt3\AutoItX
+PUBLIC = C:\Users\Public
+PublishableProject = true
+PublishBuildDependsOn = 
+            BuildOnlySettings;
+            PrepareForBuild;
+            ResolveReferences;
+            PrepareResources;
+            ResolveKeySource;
+            PrepareResourcesForSatelliteAssemblies;
+            GenerateSerializationAssemblies;
+            CreateSatelliteAssemblies;
+        
+PublishDependsOn = 
+      SetGenerateManifests;
+      Build;
+      PublishOnly
+    
+PublishDir = bin\Debug\app.publish\
+PublishOnlyDependsOn = 
+      SetGenerateManifests;
+      PublishBuild;
+      BeforePublish;
+      GenerateManifests;
+      CopyFilesToOutputDirectory;
+      CleanPublishFolder;
+      _CopyFilesToPublishFolder;
+      _DeploymentGenerateBootstrapper;
+      ResolveKeySource;
+      _DeploymentSignClickOnceDeployment;
+      AfterPublish
+    
+RanorexTargetsPath = C:\Program Files (x86)\MSBuild\Ranorex8.1\Ranorex.MSBuild.Targets
+RanorexVersion = 8.1
+RebuildDependsOn = 
+      BeforeRebuild;
+      Clean;
+      Build;
+      AfterRebuild;
+    
+ReferencePath = C:\DLL\
+RegisterForComInterop = False
+ReportingServicesTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v11.0\ReportingServices\Microsoft.ReportingServices.targets
+ResGenDependsOn = ResolveAssemblyReferences;SplitResourcesByCulture;BeforeResGen;CoreResGen;AfterResGen
+ResGenExecuteAsTool = false
+ResolveAssemblyReferencesDependsOn = InitRxSearchPaths
+ResolveReferencesDependsOn = 
+      
+      BeforeResolveReferences;
+      AssignProjectConfiguration;
+      ResolveProjectReferences;
+      ResolveNativeReferences;
+      ResolveAssemblyReferences;
+      ResolveComReferences;
+      AfterResolveReferences
+    ;
+      ImplicitlyExpandDesignTimeFacades
+    
+ResolveSDKReferencesDependsOn = 
+      GetInstalledSDKLocations
+    
+RootNamespace = SystemXTest
+RunAfterInstall = true
+RunCodeAnalysis = False
+RunDependsOn = 
+RunPostBuildEvent = OnBuildSuccess
+SatelliteDllsProjectOutputGroupDependsOn = PrepareForBuild;PrepareResourceNames
+SCITE_USERHOME = C:\Users\rommel.lamanilao\AppData\Local\AutoIt v3\SciTE
+SDK35ToolsPath = 
+SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\
+SDKRedistOutputGroupDependsOn = ResolveSDKReferences;ExpandSDKReferences
+SDKReferenceDirectoryRoot = C:\Users\rommel.lamanilao\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
+SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
+SESSIONNAME = Console
+SGenFilesOutputGroupDependsOn = 
+SGenShouldGenerateSerializer = true
+SGenUseProxyTypes = true
+SignAssembly = False
+SIKULI_HOME = C:\SikuliX
+SILK_CONFIG_PATH = C:\ProgramData\Borland\Silk\SilkMeter\cfg
+SkipCopyUnchangedFiles = true
+SolutionDir = *Undefined*
+SolutionExt = *Undefined*
+SolutionFileName = *Undefined*
+SolutionName = *Undefined*
+SolutionPath = *Undefined*
+SourceFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+StartAction = Project
+SubsystemVersion = 6.00
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TargetCulture = *
+TargetDeployManifestFileName = SystemXAuto-Test.application
+TargetDir = C:\Projects\Automation\Tools\SystemXAuto-Test\bin\Debug\
+TargetedFrameworkDir = @(_TargetedFrameworkDirectoryItem)
+TargetedRuntimeVersion = v4.0.30319
+TargetedSDKArchitecture = x86
+TargetedSDKConfiguration = Debug
+TargetExt = .exe
+TargetFileName = SystemXAuto-Test.exe
+TargetFrameworkAsMSBuildRuntime = CurrentRuntime
+TargetFrameworkIdentifier = .NETFramework
+TargetFrameworkMoniker = .NETFramework,Version=v4.6
+TargetFrameworkMonikerAssemblyAttributesPath = C:\Users\rommel.lamanilao\AppData\Local\Temp\.NETFramework,Version=v4.6.AssemblyAttributes.cs
+TargetFrameworkProfile = 
+TargetFrameworkSDKToolsDirectory = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\
+TargetFrameworkVersion = v4.6
+TargetName = SystemXAuto-Test
+TargetPath = C:\Projects\Automation\Tools\SystemXAuto-Test\bin\Debug\SystemXAuto-Test.exe
+TargetPlatformIdentifier = Windows
+TargetPlatformMoniker = Windows,Version=7.0
+TargetPlatformRegistryBase = Software\Microsoft\Microsoft SDKs\Windows
+TargetPlatformSdkPath = 
+TargetPlatformVersion = 7.0
+TargetRuntime = Managed
+TaskKeyToken = 31bf3856ad364e35
+TaskVersion = 4.0.0.0
+TEMP = C:\Users\ROMMEL~1.LAM\AppData\Local\Temp
+TMP = C:\Users\ROMMEL~1.LAM\AppData\Local\Temp
+TreatWarningsAsErrors = False
+UnmanagedRegistrationDependsOn = 
+UnmanagedUnregistrationDependsOn = 
+UpgradeSubsetToProfile = true
+UseCommonOutputDirectory = false
+UseHostCompilerIfAvailable = true
+USERDNSDOMAIN = HOVEMEDSYS.LOCAL
+USERDOMAIN = HOVEMEDSYS
+USERDOMAIN_ROAMINGPROFILE = HOVEMEDSYS
+USERNAME = rommel.lamanilao
+USERPROFILE = C:\Users\rommel.lamanilao
+UseSourcePath = true
+Utf8Output = true
+Version = 1.0.0.0
+VisualStudioVersion = 11.0
+WarningLevel = 4
+WebReference_EnableLegacyEventingModel = false
+WebReference_EnableProperties = true
+WebReference_EnableSQLTypes = true
+windir = C:\WINDOWS
+WindowsSDK80Path = C:\Program Files (x86)\Windows Kits\8.0\
+WorkflowBuildExtensionAssemblyName = Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+WorkflowBuildExtensionKeyToken = 31bf3856ad364e35
+WorkflowBuildExtensionVersion = 4.0.0.0
+XamlBuildTaskAssemblyName = XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+XamlBuildTaskLocation = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+XamlDebuggingInformation = true
+XamlGenCodeFileNames = SystemXAuto-Test.csproj.XamlGeneratedCodeFileListAbsolute.txt
+XamlGenMarkupFileNames = SystemXAuto-Test.csproj.XamlGeneratedXamlFileListAbsolute.txt
+XamlPass2FlagFile = SystemXAuto-Test.csproj.XamlPass2Flag.txt
+XamlRequiresCompilationPass2 = false
+XamlTemporaryAssemblyName = SystemXAuto-Test
+YieldDuringToolExecution = true
+
+Antall opprinnelige elementer:
+_ApplicationManifestFinal
+    bin\Debug\SystemXAuto-Test.exe.manifest
+        TargetPath = SystemXAuto-Test.exe.manifest
+_DebugSymbolsIntermediatePath
+    obj\Debug\SystemXAuto-Test.pdb
+_DebugSymbolsOutputPath
+    bin\Debug\SystemXAuto-Test.pdb
+_DeploymentManifestEntryPoint
+    obj\Debug\SystemXAuto-Test.exe
+        TargetPath = SystemXAuto-Test.exe
+_DeploymentManifestIconFile
+    hovemedical.ico
+        TargetPath = hovemedical.ico
+_ExplicitReference
+    C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+_OutputPathItem
+    bin\Debug\
+_ResolveComReferenceCache
+    obj\Debug\SystemXAuto-Test.csproj.ResolveComReference.cache
+_UnmanagedRegistrationCache
+    obj\SystemXAuto-Test.csproj.UnmanagedRegistration.cache
+AppConfigFileDestination
+    bin\Debug\SystemXAuto-Test.exe.config
+ApplicationManifest
+    obj\Debug\SystemXAuto-Test.exe.manifest
+        TargetPath = SystemXAuto-Test.exe.manifest
+AvailableItemName
+    EntityDeploy
+BuiltProjectOutputGroupKeyOutput
+    C:\Projects\Automation\Tools\SystemXAuto-Test\obj\Debug\SystemXAuto-Test.exe
+        IsKeyOutput = true
+        FinalOutputPath = C:\Projects\Automation\Tools\SystemXAuto-Test\bin\Debug\SystemXAuto-Test.exe
+        TargetPath = SystemXAuto-Test.exe
+Compile
+    AssemblyInfo.cs
+        id = 5b42c82a-f146-4f78-b245-e71071c2a519
+    DbFunctions.cs
+        id = 89e44485-dc43-4476-bba9-41e9883ad326
+    ExecuteFunctions.cs
+        id = e96f45cf-df91-45a7-9674-4e0d52d4bb92
+    GlobalFunctions.cs
+        id = 78e14d26-4f45-409a-8aef-f915af80bbec
+    Images.Designer.cs
+        BoundTo = bd48e6af-d320-4e3b-8380-51a8917f669b
+        DependentUpon = Images.resx
+        AutoGen = True
+        id = d6736a65-efb4-4f46-9a2e-915954d3a805
+    Main_Script.cs
+        id = 7c1aa3d8-9f27-424e-ae64-915a5ff94c3a
+    Program.cs
+        id = 9e140c6e-a211-4f9f-b686-8ae91808a45d
+    Resource1.Designer.cs
+        BoundTo = bd48e6af-d320-4e3b-8380-51a8917f669b
+        DependentUpon = Images.resx
+        AutoGen = True
+        id = 18385943-078a-4ecc-acfc-6942f64d2ab8
+    SplashComponent.cs
+        id = ef1460b9-09d3-469e-914f-b51cb8377cde
+    SystemXAuto_Test.cs
+        BoundTo = a18c78c1-161b-48b5-a007-ff79dde3f3fb
+        DependentUpon = SystemXAuto_Test.rxrep
+        RepositoryCode = true
+        id = 98b9721f-7d6f-4c0a-a5eb-a483d9739058
+    TempCode.cs
+        id = fa1ce536-99de-4358-aa73-577d0f623631
+    WinComponents.cs
+        id = 01420d9a-2ccc-413c-9f5b-65600d2344ee
+    WriteFunctions.cs
+        id = 4c10e655-81be-4724-b72f-5b847b922077
+Content
+    SystemXAuto_Test.rxtmg
+        CopyToOutputDirectory = Always
+        id = c40b1fb8-c7cc-46db-9d42-2c16f522b473
+    SystemXAuto_Test.rxtst
+        CopyToOutputDirectory = Always
+        id = dcdb1a33-fff5-481a-9a52-ccb44e0a6ebe
+DebugSymbolsProjectOutputGroupOutput
+    C:\Projects\Automation\Tools\SystemXAuto-Test\obj\Debug\SystemXAuto-Test.pdb
+        FinalOutputPath = C:\Projects\Automation\Tools\SystemXAuto-Test\bin\Debug\SystemXAuto-Test.pdb
+        TargetPath = SystemXAuto-Test.pdb
+DeployManifest
+    obj\Debug\SystemXAuto-Test.application
+        TargetPath = SystemXAuto-Test.application
+EmbeddedResource
+    Images.resx
+        Generator = ResXFileCodeGenerator
+        id = bd48e6af-d320-4e3b-8380-51a8917f669b
+        LastGenOutput = Resource1.Designer.cs
+IntermediateAssembly
+    obj\Debug\SystemXAuto-Test.exe
+None
+    app.config
+        id = fcc7b1c3-7a92-4956-ba4e-38af6a26647c
+    app.manifest
+        id = aeb9c3f4-0ab3-40e2-8bc0-34602cfcd3f8
+    SystemXAuto_Test.rximg
+        BoundTo = a18c78c1-161b-48b5-a007-ff79dde3f3fb
+        DependentUpon = SystemXAuto_Test.rxrep
+        imageblob = true
+        id = 79814c94-5609-4d81-b270-9498db3d29bb
+    SystemXAuto_Test.rxrep
+        id = a18c78c1-161b-48b5-a007-ff79dde3f3fb
+        repoid = 995bdee8-9b3e-4149-afe7-8c19ac46df65
+        reporootid = c8bee4f4-62d8-43b2-b573-ac82847444df
+Reference
+    MySql.Data
+        HintPath = References\MySql.Data.dll
+    PresentationCore
+        HintPath = References\PresentationCore.dll
+    PresentationFramework
+        HintPath = References\PresentationFramework.dll
+    Ranorex.Bootstrapper
+        Private = False
+    Ranorex.Controls
+        HintPath = ..\..\..\DLLs\Ranorex.Controls.dll
+        Private = False
+    Ranorex.Core
+        Private = False
+    Ranorex.Core.Resolver
+        Private = True
+    Ranorex.Plugin.Cef
+        Private = False
+    Ranorex.Plugin.ChromeWeb
+        Private = False
+    Ranorex.Plugin.FirefoxWeb
+        Private = False
+    Ranorex.Plugin.Flex
+        Private = False
+    Ranorex.Plugin.Java
+        Private = False
+    Ranorex.Plugin.Mobile
+        Private = False
+    Ranorex.Plugin.Msaa
+        Private = False
+    Ranorex.Plugin.Office
+        Private = False
+    Ranorex.Plugin.Qt
+        Private = False
+    Ranorex.Plugin.RawText
+        Private = False
+    Ranorex.Plugin.Sap
+        Private = False
+    Ranorex.Plugin.Uia
+        Private = False
+    Ranorex.Plugin.Web
+        Private = False
+    Ranorex.Plugin.WebDriver
+        Private = False
+    Ranorex.Plugin.Win32
+        Private = False
+    Ranorex.Plugin.WinForms
+        Private = False
+    Ranorex.Plugin.Wpf
+        Private = False
+    System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        RequiredTargetFramework = 4.0
+    System.Data
+    System.Drawing
+    System.Windows.Forms
+    System.Xml
+    WindowsBase
+        HintPath = References\WindowsBase.dll
+XamlBuildTaskTypeGenerationExtensionName
+    Microsoft.Activities.Build.BeforeInitializeComponentExtension
+        AssemblyName = Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+        Visible = false
+    Microsoft.Activities.Build.Debugger.DebugBuildExtension
+        AssemblyName = Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+        Visible = false
+
+Bygger med verktøyversjonen 4.0.
+Målet _CheckForInvalidConfigurationAndPlatform: (Mål-ID: 2) i filen C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets fra prosjektet C:\Projects\Automation\Tools\SystemXAuto-Test\SystemXAuto-Test.csproj (inngangspunkt):
+Hoppet over oppgaven Error på grunn av usann betingelse. ( '$(_InvalidConfigurationError)' == 'true' ) ble evaluert som ( '' == 'true' ).
+Hoppet over oppgaven Warning på grunn av usann betingelse. ( '$(_InvalidConfigurationWarning)' == 'true' ) ble evaluert som ( '' == 'true' ).
+Bruker oppgaven Message fra samlingen Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.
+Oppgaven Message (Oppgave-ID: 2)
+  Oppgaveparameter:Text=Configuration=Debug (Oppgave-ID: 2)
+  Oppgaveparameter:Importance=Low (Oppgave-ID: 2)
+  Configuration=Debug (Oppgave-ID: 2)
+Kjøring av oppgaven Message er fullført. (Oppgave-ID: 2)
+Oppgaven Message (Oppgave-ID: 3)
+  Oppgaveparameter:Text=Platform=x86 (Oppgave-ID: 3)
+  Oppgaveparameter:Importance=Low (Oppgave-ID: 3)
+  Platform=x86 (Oppgave-ID: 3)
+Kjøring av oppgaven Message er fullført. (Oppgave-ID: 3)
+Hoppet over oppgaven Error på grunn av usann betingelse. ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) ble evaluert som ('bin\Debug\' != '' and !HasTrailingSlash('bin\Debug\')).
+Hoppet over oppgaven Error på grunn av usann betingelse. ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) ble evaluert som ('obj\' != '' and !HasTrailingSlash('obj\')).
+Hoppet over oppgaven Error på grunn av usann betingelse. ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) ble evaluert som ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+Ferdig med bygging av målet _CheckForInvalidConfigurationAndPlatform i prosjektet SystemXAuto-Test.csproj.: (Mål-ID: 2)
+C:\Projects\Automation\Tools\SystemXAuto-Test\SystemXAuto-Test.csproj : error MSB4057: Målet go finnes ikke i prosjektet.
+Bygging av prosjektet C:\Projects\Automation\Tools\SystemXAuto-Test\SystemXAuto-Test.csproj (go mål) er ferdig -- MISLYKTES.
+
+
+Ytelsessammendrag for prosjekt:
+       41 ms  C:\Projects\Automation\Tools\SystemXAuto-Test\SystemXAuto-Test.csproj   1 kall
+                 41 ms  go                                         1 kall
+
+Sammendrag av målytelse:
+       12 ms  _CheckForInvalidConfigurationAndPlatform   1 kall
+
+Sammendrag av oppgaveytelse:
+        2 ms  Message                                    2 kall
+
+Bygging MISLYKTES.
+
+C:\Projects\Automation\Tools\SystemXAuto-Test\SystemXAuto-Test.csproj (go mål) (1) ->
+  C:\Projects\Automation\Tools\SystemXAuto-Test\SystemXAuto-Test.csproj : error MSB4057: Målet go finnes ikke i prosjektet.
+
+    0 advarsel(er)
+    1 feil
+
+Brukt tid 00:00:00.12

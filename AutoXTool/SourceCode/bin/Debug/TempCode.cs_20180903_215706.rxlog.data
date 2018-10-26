@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="38fd14de6bfd9ece"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="rommel.lamanilao"
+		rxversion="8.2.0.0"
+		host="UTV-ROLA"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="nb-NO"
+		dtnlanguage="en-PH"
+		screenresolution="2902x864"
+		timestamp="03.09.2018 21:57:11"
+		timestampiso="2018-09-03T19:57:11"
+		endtime="03.09.2018 21:57:16"
+		timeoutfactor="1"
+		module="TempCode">
+		<detail>
+			TempCode
+		</detail>
+		<errormessage>
+			St&#248;tter ikke formatet i angitt bane.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.340"
+			timeRelativeToTestModuleStartTime="00:04.341"
+			timeWallClock="21:57:15"
+			time="00:04.340"
+			level="Error"
+			category="Module"
+			errimg=".\TempCode_cfe39c62_ae5a49c2_trace.jpg"
+			errthumb=".\TempCode_cfe39c62_ae5a49c2_trace_thumb.jpg">
+			<message>
+				St&#248;tter ikke formatet i angitt bane.
+			</message>
+			<metainfo
+				stacktrace="   ved System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   ved System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   ved System.IO.Path.GetFullPath(String path)
+   ved System.IO.Compression.ZipFile.DoCreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName, Nullable`1 compressionLevel, Boolean includeBaseDirectory, Encoding entryNameEncoding)
+   ved System.IO.Compression.ZipFile.CreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName)
+   ved SystemXTest.TempCode.Ranorex.Core.Testing.ITestModule.Run() i c:\Projects\Automation\Tools\SystemXAuto-Test\TempCode.cs:linje 56
+   ved Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Projects\Automation\Tools\SystemXAuto-Test\TempCode.cs"
+				codeline="56"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

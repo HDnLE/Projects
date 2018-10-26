@@ -1,0 +1,30 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="WriteFunctions.cs" />
+  </Array>
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Projects\Automation\Tools\SystemXAuto-Test\WinComponents.cs|2769|3|True|Break||" />
+    <Element value="Breakpoint|C:\Projects\Automation\Tools\SystemXAuto-Test\TempCode.cs|86|1|True|Break||" />
+    <Element value="Breakpoint|C:\Projects\Automation\Tools\SystemXAuto-Test\app.manifest|12|7|True|Break||" />
+    <Element value="Breakpoint|C:\Projects\Automation\Tools\SystemXAuto-Test\WinComponents.cs|3235|6|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="TempCode.cs" />
+    <Element value="WinComponents.cs" />
+    <Element value="Program.cs" />
+    <Element value="Images.resx" />
+    <Element value="WriteFunctions.cs" />
+    <Element value="DbFunctions.cs" />
+    <Element value="Main_Script.cs" />
+    <Element value="GlobalFunctions.cs" />
+    <Element value="ExecuteFunctions.cs" />
+    <Element value="SystemXAuto_Test.rxtst" />
+    <Element value="app.manifest" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="12s"
+		durationms="11996"
+		type="root"
+		rid="67bd77f91f39077"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="rommel.lamanilao"
+		rxversion="8.2.0.0"
+		host="UTV-ROLA"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="nb-NO"
+		dtnlanguage="en-PH"
+		screenresolution="2902x864"
+		timestamp="03.09.2018 22:01:45"
+		timestampiso="2018-09-03T20:01:45"
+		endtime="03.09.2018 22:01:57"
+		timeoutfactor="1"
+		module="TempCode">
+		<detail>
+			TempCode
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.995"
+			timeRelativeToTestModuleStartTime="00:11.997"
+			timeWallClock="22:01:57"
+			time="00:11.995"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

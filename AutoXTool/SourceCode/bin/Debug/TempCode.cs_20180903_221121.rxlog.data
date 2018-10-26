@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="417b4a196d86e50"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="rommel.lamanilao"
+		rxversion="8.2.0.0"
+		host="UTV-ROLA"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="nb-NO"
+		dtnlanguage="en-PH"
+		screenresolution="2902x864"
+		timestamp="03.09.2018 22:11:26"
+		timestampiso="2018-09-03T20:11:26"
+		endtime="03.09.2018 22:11:31"
+		timeoutfactor="1"
+		module="TempCode">
+		<detail>
+			TempCode
+		</detail>
+		<errormessage>
+			Filen C:\Scripts\v5.2\AutomaticTesting\Source\TS_1058_Oppl&#230;ring___Konsultasjon_allmennlege.zip finnes allerede.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.262"
+			timeRelativeToTestModuleStartTime="00:04.263"
+			timeWallClock="22:11:31"
+			time="00:04.262"
+			level="Error"
+			category="Module"
+			errimg=".\TempCode_a94e6d4e_1b1ce679_trace.jpg"
+			errthumb=".\TempCode_a94e6d4e_1b1ce679_trace_thumb.jpg">
+			<message>
+				Filen C:\Scripts\v5.2\AutomaticTesting\Source\TS_1058_Oppl&#230;ring___Konsultasjon_allmennlege.zip finnes allerede.
+			</message>
+			<metainfo
+				stacktrace="   ved System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   ved System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   ved System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   ved System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   ved System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   ved System.IO.Compression.ZipFile.DoCreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName, Nullable`1 compressionLevel, Boolean includeBaseDirectory, Encoding entryNameEncoding)
+   ved System.IO.Compression.ZipFile.CreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName)
+   ved SystemXTest.TempCode.Ranorex.Core.Testing.ITestModule.Run() i c:\Projects\Automation\Tools\SystemXAuto-Test\TempCode.cs:linje 56
+   ved Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Projects\Automation\Tools\SystemXAuto-Test\TempCode.cs"
+				codeline="56"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

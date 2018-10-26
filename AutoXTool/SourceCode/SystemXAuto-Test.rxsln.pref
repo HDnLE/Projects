@@ -1,0 +1,9 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution SystemXAuto-Test[Solution Items[]SystemXAuto-Test[References[]Images.resx[]]]]&#xD;&#xA;Solution SystemXAuto-Test\SystemXAuto-Test\WriteFunctions.cs&#xD;&#xA;Solution SystemXAuto-Test\SystemXAuto-Test\References\System.Drawing" />
+  <StartupProject value="{712F04E7-2D03-4E43-898C-876FA41CEB4C}" />
+</Properties>
