@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SystemX Test Automation</title>
+		<meta charset="utf-8">
+		<link href="styles.css" rel="stylesheet">
+		<link rel="shortcut icon" href="systemx.ico">
+	</head>
+	<body>
+		<div class="wrapper">
+			<h3>SystemX Test Automation</h3>
+			<div class="left">
+				<p>Utførelsestid</p>
+				<p class="bold info_data">%ExecutionTime%</p>
+				<p>Operativsystem</p>
+				<p class="bold info_data">%OperatingSystem%</p>
+				<p>Testsuite</p>
+				<p class="bold info_data">TS-%TSID%: %TSTitle%</p>
+			</div>
+			<div class="right">
+				<p>Datamaskinnavn</p>
+				<p class="bold info_data">%ComputerName%</p>
+				<p>Varighet</p>
+				<p class="bold info_data">%Duration%</p>
+				<p>Totalt feil</p>
+				<p class="bold info_data">%TotalError%</p>
+			</div>
+			<div class="tc_header bold">
+				TC-%TCID%: %TCTitle%
+				<span style="float:right">(Designer: %Designer%)</span>
+			</div>
+			<table width="100%" cellspacing=0 cellpadding=2>
+				<thead>
+					<tr>
+						<th width="10%">Tid</th>
+						<th width="5%">Trinn nr.</th>
+						<th  width="15%">Trinn kategori</th>
+						<th  width="15%">Trinn kommando</th>
+						<th width="15%">Resultat</th>
+						<th  width="40%">Kommentarer</th>
+					</tr>
+				</thead>
+				<tbody>

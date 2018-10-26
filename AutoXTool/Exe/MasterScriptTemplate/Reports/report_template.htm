@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SystemX Test Automation</title>
+		<link rel="shortcut icon" href="http://utv-sxtest1/xauto-test/systemx.ico" type="image/x-icon" />
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+		<style>
+			body {
+			  font-family: 'Open Sans', sans-serif;
+			  
+			  position: relative;
+			  margin: 0px;
+			  font-size: 12px;
+			  padding: 10px 300px 0px 300px;
+			}
+
+			.wrapper {
+				background-color: #f7f7f7;
+				padding: 10px;
+				border:1px solid #DDD;
+				box-shadow: 10px 10px 25px #777;
+				height:auto;
+			}
+
+			.info_data {
+				margin-top:-10px;
+			}
+
+			.bold {
+				font-weight: bold;
+			}
+
+			.left {
+				width:300px;
+				display:inline-block;
+			}
+
+			.right {
+				display:inline-block;
+			}
+
+			.tc_header {
+				/*background-color: #FFDB58;*/
+				background:#6FB3E0;
+				padding: 10px;
+				height:auto;
+				font-size:13px;
+				text-shadow: 0px 1px 0px rgba(255,255,255,.5);
+				color:#333;
+			}
+
+			table {
+				background-color: #FFF;
+				padding: 10px;
+				border:1px solid #DDD;
+				margin-top:10px;
+			}
+
+			th {
+				background-color: #EEE;
+				padding:5px;
+				text-align:left;
+			}
+
+			td {
+				border-bottom:1px solid #DDD;
+				padding:5px;
+			}
+
+			span {
+				text-shadow: 0px 1px 0px rgba(255,255,255,.5);
+				color:#333;
+			}
+
+			.ok {
+				color:green;
+			}
+
+			.feil {
+				color:Firebrick;
+			}
+
+			a {
+				text-decoration:none;
+				color:#3B5998;
+			}
+			a:hover {
+				font-weight:bold;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h3>SystemX Test Automation</h3>
+			<div class="left">
+				<p>Utførelsestid</p>
+				<p class="bold info_data">%ExecutionTime%</p>
+				<p>Operativsystem</p>
+				<p class="bold info_data">%OperatingSystem%</p>
+				<p>Testsuite</p>
+				<p class="bold info_data">TS-%TSID%: %TSTitle%</p>
+			</div>
+			<div class="right">
+				<p>Datamaskinnavn</p>
+				<p class="bold info_data">%ComputerName%</p>
+				<p>Varighet</p>
+				<p class="bold info_data">%Duration%</p>
+				<p>Totalt feil</p>
+				<p class="bold info_data">%TotalError%</p>
+			</div>
+			<div class="tc_header bold">
+				TC-%TCID%: %TCTitle%
+				<span style="float:right">(Designer: %Designer%)</span>
+			</div>
+			<table width="100%" cellspacing=0 cellpadding=2>
+				<thead>
+					<tr>
+						<th width="10%">Tid</th>
+						<th width="5%">Steg nr.</th>
+						<th  width="15%">Steg kategori</th>
+						<th  width="15%">Steg kommando</th>
+						<th width="15%">Status</th>
+						<th  width="40%">Kommentar</th>
+					</tr>
+				</thead>
+				<tbody>
