@@ -1,0 +1,110 @@
+﻿<repository
+id="57535811-9e70-48a0-a7ba-308aae72ff1f"
+name="SXRepos"
+rxversion="8.2">
+	<codegen
+	classname="SXRepos"
+	namespace="TestTemplate">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="f54ab49e-2074-43a3-bc83-bd6f67c47df2"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,delphicontrol"
+		capname="form"
+		id="d63b8183-de21-4f47-b2c0-2a621be3654c"
+		isrooted="True"
+		name="frmStartmeny"
+		refimgid="a740f699-8b83-48c7-bdf8-6eb9dbf820ea"
+		searchtimeout="5ms"
+		usecache="False">
+			<basepath>
+				/form[@title~'Startmeny' and @processname='Systemx']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGMSURBVDhPhZE/T8JQFMVZHE3UyVUipGE0rpKy
+kvQLwCKJKQ58AY0xDi7tQlg1EJrAoANhw1YmQFYsDujmn4RVGE3su977aIuPtnqSX0huLyf3nROL
+0AYASIyxgzDwm4y/R8ieux9QdjY8BDY5DeEM2MsFONObLzS4cvcDUl7vcsBsNZzxMTjj0rzZbIK7
+HxA3+B6pTJZlSKVSIEkSJ5lMwnxYAOdRZdVqNdrgzcyBY6uzcrmMT4ZNnG25KB/3ef7NMwgEhrP4
+5wNmYBehXq8Dzi6RfVpGKe+WaJBtt9vQ7/d9ut0unbh47+QE2PSWTK6RnTADpdFogGVZAkJoTyWg
+wNAgj/u71JBjF4MGmUyGB0ZB0VVLo+Kivudz3gDNQi+oVCpeYIqu69DpdJZXCKAhUqvVRAMaoGSc
+bdM8kUj4l3jXeXUS6XQ60oC0jij09pXrvDqJNWRpYBgGBVVA/DpbrVaYuSDfoNfrwWAwEOo0TfN/
+A03TeGC0GMVfBjwwqu53QKtQYKj44i+eYrEfafQRS6A1hTIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphicontrol"
+		capname="form"
+		id="1c05dda2-8483-4866-b5f1-e82345671435"
+		isrooted="True"
+		name="frmPassord"
+		refpath="/form[@controlname='FPassord']"
+		searchtimeout="5ms"
+		usecache="False">
+			<item
+			addcaps="text,nativewindow,delphicontrol"
+			capname="text"
+			id="973e8024-dc92-4cc4-92a9-601be750374c"
+			name="txtUsername"
+			refimgid="87c55321-f575-403c-b291-8b2fdc6c05f7"
+			searchtimeout="30000ms">
+				/form[@controlname='FPassord']/element[@controlname='UsrName']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,nativewindow,delphicontrol"
+			capname="text"
+			id="007ed0cb-b65d-4014-93f2-9c6f35d73d78"
+			name="txtPassword"
+			refimgid="6917cca5-f8f3-401f-a257-df984873764c"
+			searchtimeout="30000ms">
+				/form[@controlname='FPassord']/element[@controlname='PWord']/text[@accessiblerole='Text']
+			</item>
+			<basepath>
+				/form[@controlname='FPassord']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGMSURBVDhPhZE/T8JQFMVZHE3UyVUipGE0rpKy
+kvQLwCKJKQ58AY0xDi7tQlg1EJrAoANhw1YmQFYsDujmn4RVGE3su977aIuPtnqSX0huLyf3nROL
+0AYASIyxgzDwm4y/R8ieux9QdjY8BDY5DeEM2MsFONObLzS4cvcDUl7vcsBsNZzxMTjj0rzZbIK7
+HxA3+B6pTJZlSKVSIEkSJ5lMwnxYAOdRZdVqNdrgzcyBY6uzcrmMT4ZNnG25KB/3ef7NMwgEhrP4
+5wNmYBehXq8Dzi6RfVpGKe+WaJBtt9vQ7/d9ut0unbh47+QE2PSWTK6RnTADpdFogGVZAkJoTyWg
+wNAgj/u71JBjF4MGmUyGB0ZB0VVLo+Kivudz3gDNQi+oVCpeYIqu69DpdJZXCKAhUqvVRAMaoGSc
+bdM8kUj4l3jXeXUS6XQ60oC0jij09pXrvDqJNWRpYBgGBVVA/DpbrVaYuSDfoNfrwWAwEOo0TfN/
+A03TeGC0GMVfBjwwqu53QKtQYKj44i+eYrEfafQRS6A1hTIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="f3f6b6d8-8481-4ffd-8675-b95efd2c1323"
+		isrooted="True"
+		name="frmConfirm"
+		refpath="/form[@title='Bekreft']"
+		searchtimeout="5ms"
+		usecache="False">
+			<basepath>
+				/form[@title='Bekreft']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAYpJREFUOE+NkTFIw0AUhrO5VXFyUnDJ4FBoLY4SHbSgnd00SdOqnRxc
+RJdSXNRBaaG4ZRYKAaWQNdalk1U0QwUncVFQEKfe870mOXNpKj74Anl59+XuPymmxrpXa8C6R/E8
+HUPv+fyLMXaCzPprhJq0zpaA3RaGUAR2vwO1Wg1I4q8RyhcUIZ1OQyqVgmQyyfm4UYF1tkHXdRIc
++muE8gSdTchmszSUwN6cz+JldRm/bYGqoogE+BgBgOkAHEp4Q/wvVWQK+1S+vPQrME0T2u02p9Vq
+wfv1hnfWxz1grxYNniIU2KCgXC6DbdsCQmh3JajX630JCka93cUIMpkMD8yyLFHk7kPv5eK793Dw
++eas94+naZooyOVy1KDAFqjXbDZDO8HjcPAdBfl8XhQUCviBGhgisirLMt9JeHcBiqLQ/G6cgGoC
+WalUKtHdBddJzGBvnAsMw6Chavg6A0FELlYgcBwHXNcVrrPRaPxPQIHR4DD+FGD1AwsHFIUHNqQo
+sHkkHFAUL7CBkqQfcf0IuaoHyMoAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ff4d5af6-2089-4ec2-be57-1342eede460b"
+mode="Global"
+rxversion="8.2">
+	<name>
+		RestartSystemX
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RestartSystemX"
+	namespace="TestTemplate">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="e827895a-2ebd-4487-905d-a44b7d5639e6">
+			<comment>
+				Kill System X process
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d63b8183-de21-4f47-b2c0-2a621be3654c"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@controlname='fs']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+				Start System X
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\HMSCLIENT\Systemx.exe
+			</filename>
+			<workingdir>
+				C:\HMSCLIENT
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+		<userrecorditem
+		classname="SXCollections"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="SXAutoLogin"
+		namespace="SXNamespace"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="cdd6cd09-f5be-43c5-acdc-8a4033949f24">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="57535811-9e70-48a0-a7ba-308aae72ff1f"
+	name="SXRepos"
+	relativepath="SXRepos.rxrep"
+	rxversion="8.2">
+		<codegen
+		classname="SXRepos"
+		namespace="TestTemplate">
+		</codegen>
+		<rootfolder
+		id="f54ab49e-2074-43a3-bc83-bd6f67c47df2"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RestartSystemX.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,21 @@
+﻿<repository
+id="5202fd21-20c2-465c-b20f-e61501ca384b"
+name="SXAutoLibsRepository"
+rxversion="8.2">
+	<codegen
+	classname="SXAutoLibsRepository"
+	namespace="SXAutoLibs">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="51712d55-9476-4045-93b1-cebe77c922fd"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

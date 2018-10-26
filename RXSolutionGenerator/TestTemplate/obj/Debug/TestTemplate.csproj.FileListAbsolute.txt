@@ -1,0 +1,9 @@
+C:\Ranorex\TestTemplate\obj\Debug\TestTemplate.csprojResolveAssemblyReference.cache
+C:\Ranorex\TestTemplate\bin\Debug\TestTemplate.rxtmg
+C:\Ranorex\TestTemplate\bin\Debug\TestTemplate.rxtst
+C:\Ranorex\TestTemplate\bin\Debug\TestTemplate.exe.config
+C:\Ranorex\TestTemplate\bin\Debug\TestTemplate.exe
+C:\Ranorex\TestTemplate\bin\Debug\TestTemplate.pdb
+C:\Ranorex\TestTemplate\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Ranorex\TestTemplate\obj\Debug\TestTemplate.exe
+C:\Ranorex\TestTemplate\obj\Debug\TestTemplate.pdb

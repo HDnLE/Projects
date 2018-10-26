@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{2E81FEC7-9B5C-4DBF-AFE8-BBCE19162DF2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SXAutoLibs</RootNamespace>
+    <AssemblyName>SXAutoLibs</AssemblyName>
+    <RanorexVersion>8.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <projectdefaultrepository>47bd8b69-e596-420f-950c-05614fcb68d7</projectdefaultrepository>
+    <TargetFrameworkProfile />
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>obj\x86\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>50fc02f2-5e58-4f48-b9a0-703cfebffeb0</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>53d16a2b-c679-40f7-a389-c45d687f4e22</id>
+    </Compile>
+    <Compile Include="SXAutoLibsRepository.cs">
+      <BoundTo>47bd8b69-e596-420f-950c-05614fcb68d7</BoundTo>
+      <DependentUpon>SXAutoLibsRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>5e223d41-312d-4be1-984e-fd6e587df497</id>
+    </Compile>
+    <Compile Include="GlobalFunctions.cs">
+      <id>370fbe7a-efab-4ada-a417-703ecaef84c1</id>
+    </Compile>
+    <None Include="app.config">
+      <id>f85ec957-16ed-4bf2-8de6-830e57c684a6</id>
+    </None>
+    <None Include="SXAutoLibsRepository.rximg">
+      <BoundTo>47bd8b69-e596-420f-950c-05614fcb68d7</BoundTo>
+      <DependentUpon>SXAutoLibsRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>c9c1cd44-a9ba-46f9-a9aa-63e1395e172c</id>
+    </None>
+    <None Include="SXAutoLibsRepository.rxrep">
+      <id>47bd8b69-e596-420f-950c-05614fcb68d7</id>
+      <repoid>5202fd21-20c2-465c-b20f-e61501ca384b</repoid>
+      <reporootid>51712d55-9476-4045-93b1-cebe77c922fd</reporootid>
+    </None>
+    <Content Include="SXAutoLibs.cd">
+      <id>9efaf829-b8c8-4e10-8456-8b2ea799c714</id>
+    </Content>
+    <Content Include="SXAutoLibs.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a6c7e595-478b-47f6-97b5-f0a29231ef37</id>
+    </Content>
+    <Content Include="SXAutoLibs.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>abceea89-97e1-4a41-ad20-cd94e5846a29</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

@@ -1,0 +1,32 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="RestartSystemX.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="RestartSystemX.rxrec" />
+    <Element value="TestTemplate.rxtst" />
+    <Element value="StartSystemX.cs" />
+    <Element value="SXCollections.cs" />
+    <Element value="Program.cs" />
+    <Element value="Setup.cs" />
+    <Element value="ErrorRecovery.cs" />
+    <Element value="SXRepos.cs" />
+    <Element value="SXRepos.rxrep" />
+    <Element value="RestartSystemX.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="SXNamespace.SXCollections.SXAutoLogin()" />
+      <Element value="SXNamespace.SXCollections.SystemXLogin(String strUsername, String strPassword)" />
+      <Element value="TestTemplate.SXCollections.SystemXLogin(String strUsername, String strPassword)" />
+      <Element value="TestTemplate.SXCollections.SystemXLogin(RepoItemInfo objUsername, String strUsername, RepoItemInfo objPassword, String strPassword)" />
+      <Element value="TestTemplate.SXCollections.PressKeyExist(RepoItemInfo objInfo, String strKeys)" />
+      <Element value="TestTemplate.TestTemplate.CheckObjectState(RepoItemInfo objectInfo)" />
+    </Array>
+  </Properties>
+</Properties>

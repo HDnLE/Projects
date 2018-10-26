@@ -1,0 +1,13 @@
+C:\Projects\SystemXTest\bin\Debug\TestTemplate\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\SystemXTest\bin\Debug\TestTemplate\bin\Debug\TestTemplate.rxtmg
+C:\Projects\SystemXTest\bin\Debug\TestTemplate\bin\Debug\TestTemplate.rxtst
+C:\Projects\SystemXTest\bin\Debug\TestTemplate\bin\Debug\TestTemplate.exe.config
+C:\Projects\SystemXTest\bin\Debug\TestTemplate\bin\Debug\TestTemplate.exe
+C:\Projects\SystemXTest\bin\Debug\TestTemplate\bin\Debug\TestTemplate.pdb
+C:\Projects\SystemXTest\bin\Debug\TestTemplate\obj\x86\Debug\TestTemplate.exe
+C:\Projects\SystemXTest\bin\Debug\TestTemplate\obj\x86\Debug\TestTemplate.pdb
+C:\Projects\SystemXAuto-Test\TestTemplate\obj\x86\Debug\TestTemplate.csprojResolveAssemblyReference.cache
+C:\Projects\SystemXAuto-Test\TestTemplate\obj\x86\Debug\TestTemplate.exe
+C:\Projects\SystemXAuto-Test\TestTemplate\obj\x86\Debug\TestTemplate.pdb
+C:\Projects\SystemXAuto-Test\TestTemplate\obj\x86\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Projects\SystemXAuto-Test\TestTemplate\obj\x86\Debug\TestTemplate.csproj.ResolveComReference.cache
