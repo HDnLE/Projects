@@ -444,7 +444,7 @@ namespace SXAutoLibs
             catch (ElementNotFoundException)
             {
 				Report.Failure("Keyboard", errorMsg);
-            	response = "Kritisk:Ingen element funnet på AUT ELLER AUT kjører ikke";
+            	response = "Kritisk:Ingen element (" + objPath + ") funnet på AUT ELLER AUT kjører ikke";
             }
 			/*if (IsProgramCrash())
 			{
@@ -1327,6 +1327,9 @@ namespace SXAutoLibs
 		public static string RestartApplication()
 		{
 			string response = "OK";
+			string logFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+			string testcase = System.IO.File.ReadAllText(logFolder + "\\logfilename.log");
+			string logName = logFolder + "\\CheckLoginLog.log";
 			//Quit System X
 			try
 			{
@@ -1343,18 +1346,28 @@ namespace SXAutoLibs
 			//CheckProgramCrash("/form[(@name='Systemx.exe' or @name='EPJ, EMR, PAS, HIS' or @name='System X Client') and @processname='WerFault']");
 			
 			//Open System X
-			string logFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
 			string appName = System.IO.File.ReadAllText(logFolder + "\\SystemxPath.log");
 			response = RunWinApplication(appName);
 			
 			//Press A if a dialog opens
 			//PressKeysExist("/form[@title='Bekreft']", "Form", "{AKey}");
 			
+			string strUsername = "";
+			string strPassword = "";
+			
 			//Get login details
-			string[] details = System.IO.File.ReadAllText(logFolder + "\\login.log").Split(';');
-			int cntDetails = details.Length;
-			string strUsername = details[cntDetails - 3];
-			string strPassword = details[cntDetails - 2];
+			try
+			{
+				string[] details = System.IO.File.ReadAllText(logFolder + "\\login.log").Split(';');
+				int cntDetails = details.Length;
+				strUsername = details[cntDetails - 3];
+				strPassword = details[cntDetails - 2];
+				WriteLog(logName, testcase + " -- Check login log...OK");
+			}
+			catch (IndexOutOfRangeException)
+			{
+				WriteLog(logName, testcase + " -- Check login log...FAIL");
+			}
 			
 			//Enter username and password
 			try
